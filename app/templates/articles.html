@@ -1,0 +1,17 @@
+{% extends 'base.html' %} 
+{% import 'macros.html' as macro%} 
+
+{%block styles%} 
+{{ super() }}
+{%endblock%} 
+{% block content %}
+<div class="main-section">
+  <h1 style="font-family: 'Poppins', san-serif"><span class="span text-danger">Latest News</span></h1>
+  {{macro.listArticles(articles)}}
+</div>
+<footer>
+  <p style="text-align: center;">
+    &copy; 2022 | <span class="span text-danger">THE WATCHING POST</span>
+  </p>
+</footer>
+{% endblock%}
