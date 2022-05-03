@@ -8,7 +8,7 @@
 
 The Morning Post consolidates major trusted news sources into one platform for easy timely headlines and latest stories. See screenshots below:
 
-![Landing page screenshot](./app/static/img/.png "The Watching Post")
+![Landing page screenshot](./app/static/img/Watching-post1.png "The Watching Post")
 
 ## Setup/Installation Requirements
 
